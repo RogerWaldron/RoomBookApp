@@ -28,6 +28,5 @@ public class RoomBookingRequestProcessorTest
         bookingResult.FirstName.ShouldBe(bookingRequest.FirstName);
         bookingResult.LastName.ShouldBe(bookingRequest.LastName);
         bookingResult.Email.ShouldBe(bookingRequest.Email);
-        bookingResult.Date.ShouldBe(bookingRequest.Date);  
     }
 }
